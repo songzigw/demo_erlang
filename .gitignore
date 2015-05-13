@@ -1,2 +1,6 @@
 /ebin/
 /deps/
+/doc/
+
+/.eunit/
+/.rebar/
