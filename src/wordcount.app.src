@@ -1,0 +1,12 @@
+{application, wordcount,
+ [
+  {description, "Word count."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { wordcount, []}},
+  {env, []}
+ ]}.
