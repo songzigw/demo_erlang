@@ -1,5 +1,7 @@
 -module(sweb_server).
+
 -behaviour(gen_server).
+
 -define(SERVER, ?MODULE).
 
 %% ------------------------------------------------------------------
