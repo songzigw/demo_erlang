@@ -1,0 +1,13 @@
+{application, dash,
+[
+ {description, "web dash"},
+ {vsn, "0.1.0"},
+ {registered, []},
+ {applications, [
+                  kernel,
+                  stdlib,
+                  mnesia
+                ]},
+ {mod, {dash_app, []}},
+ {env, []}
+]}.
